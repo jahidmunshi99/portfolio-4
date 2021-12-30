@@ -152,6 +152,11 @@ nav{
     color: #3e4a50;
     text-align: center;
     margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.text-orange h2{
+    color: #dc6226;
 }
 
 .section-title h4{
@@ -257,7 +262,7 @@ nav{
 .col-text p{
     font-size: 15px;
     line-height: 1.5em;
-    color:#3e4a50b2 ;
+    color:#3e4a50b2;
 }
 
 .col-text i{
@@ -276,13 +281,234 @@ nav{
 
 .money-section{
     width: 100%;
-    height: 400px
-}
-
-.money-col{
-    flex-basis: 50%;    
+    height: 380px;
+    margin: 0px auto;
+    background-color: #dc6226;
+    display: flex;
 }
 
 .left-side{
-    background-color: #dc6226;
+    flex-basis: 50%; 
+    display: block;
+    position: relative;
+    color: white;   
 }
+
+.left-text-area{
+    padding: 3% 20%;
+    display: block;
+}
+
+.money-section h4{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.money-sec-liststyle{
+    padding: 10px 0px;
+}
+
+.money-sec-liststyle li{
+    list-style: none;
+    line-height: 2em;
+}
+
+.money-sec-liststyle li a{
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.money-btn{
+    color: white;
+    border: 1px solid white;
+    margin-top: 30px;
+}
+
+.money-btn:hover{
+    background-color: white;
+    color: #3e4a50;
+    border: none;
+}
+
+
+.right-side{
+    flex-basis: 50%;
+    background-image: url(img/pattern-gray.jpg);
+    background-position: center;
+    overflow: hidden;
+    color: white;
+    display: block;
+}
+
+.right-text-area{
+    padding: 3% 10%;
+    display: block;
+}
+
+.right-text-area p{
+    margin-top: 5px;
+    line-height: 1.8em;
+    font-size: 18px;
+}
+
+
+/* ----------- fade-up-animation-bar ------------ */
+.fade-up-animation-bar{
+    width: 80%;
+    height: 120px;
+    margin: 0px auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.slider-image-area{
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.slider-image-area img{
+    width: 100%;}
+
+.sider-image-area a{
+    width: 120px;
+    margin: 0px 20px;
+}
+
+
+/* -------------- contact-section ------------- */
+.contact-form{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(41, 39, 39, 0.25),
+    rgba(41, 39, 39, 0.25)
+    ), url("img/contact-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+form{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 60px
+}
+
+.field-area{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.left-field{
+    flex-basis: 30%;
+    /* padding: 10px 30px; */
+}
+
+.field-area input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    outline: none;
+    border: 1px solid white;
+    background-color: #10111162; 
+    color: white;  
+}
+
+::placeholder{
+    color: white;
+}
+
+.right-field{
+    flex-basis: 65%;
+    /* padding: 30%; */
+}
+
+.right-field textarea{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #10111162;
+    border: 1px solid white;
+    outline: none;
+    padding: 10px 20px;
+}
+
+.right-field ::placeholder{
+    line-height: 20px;
+}
+
+/* -------------- contact-icon-section -------------- */
+.contact-icon-section{
+    width: 100%;
+    height: 250px;
+    background-image: url("img/pattern-light-gray.jpg");
+    background-position: center;
+    text-align: center;
+}
+
+.row-cont-icon{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.con-icon-col{
+    flex-basis: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-sec-logo{
+    flex-basis: 25%;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+
+.contact-sec-logo i{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    /* padding: 20px; */
+    background-color: #dc6226;
+    outline: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 1px 8px rgba(197, 197, 197, 0.541);
+    color: #3e4a50;
+    color: white;
+}
+
+.contact-sec-text{
+    flex-basis: 75%;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact-sec-text a{
+    text-decoration: none;
+    color: white;
+}
+
+.contact-sec-text:hover a{
+    color: #dc6226;
+}
+
+.contact-sec-text h3:hover{
+    color: #dc6226;
+}
+
+
+
+
+
